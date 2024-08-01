@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="91dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your Name" />
+
+    <EditText
+        android:id="@+id/txt_age"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="90dp"
+        android:hint="Enter your Age" />
+
+    <EditText
+        android:id="@+id/txt_address"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_age"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="86dp"
+        android:hint="Enter your Address" />
+
+    <EditText
+        android:id="@+id/txt_occ"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_address"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="89dp"
+        android:hint="Enter your Occupation" />
+
+    <Button
+        android:id="@+id/add_data"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_occ"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="20dp"
+        android:text="Push data to datalist" />
+
+    <Button
+        android:id="@+id/view_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_data"
+        android:layout_alignEnd="@+id/add_data"
+        android:layout_marginTop="-51dp"
+        android:layout_marginEnd="-219dp"
+        android:layout_marginRight="20dp"
+        android:text="View in List view" />
+
+    <Button
+        android:id="@+id/view_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_list"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="View in Grid View" />
+
+    <Button
+        android:id="@+id/view_recycler"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_grid"
+        android:layout_alignEnd="@+id/view_grid"
+        android:layout_marginTop="-51dp"
+        android:layout_marginEnd="-224dp"
+        android:layout_marginRight="30dp"
+        android:text="View in Recycler View" />
+
+</RelativeLayout>
